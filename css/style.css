@@ -71,7 +71,7 @@
 
 /* Portfolio Item CSS */
 .projects{
-  Height:150px;
+  Height:auto;
   width: 150px;
 }
 
@@ -84,9 +84,31 @@
 
 
 #test{
-    background-color:blue;
+    background-color:#131313;
 }
 
 .cap{
+  color:black;
+  
+  transition: margin-left .5s;
+}
+
+/*
+#thumbs{
+  align-content:center;
+  -webkit-justify-content: center
+  justify-content:center;
+}
+*/
+
+
+/* ABOUT ME PAGE */
+#aboutMe{
+  color:white;
+}
+.foot{
+  color:#f8f8ff;
+}
+.blue{
   color:white;
 }

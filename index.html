@@ -29,13 +29,14 @@
 
 </head>
 
-<body>
-    <div class="container-fluid">
+<body id="main">
+    <div class="container-fluid"> 
+    <h1>Past Projects</h1>
      <span class="glyphicon glyphicon-menu-hamburger" id="w" onclick="openNav()"></span>
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                     <a href="index.html">Home</a>
-                    <a href="index.html">To be made</a>
+                    <a href="about.html">About</a>
 
 
                 </div>
@@ -47,8 +48,35 @@
 
 
     <!-- Portfolio Grid Section -->
-<div class="row" id="test">
-    <div class="col-md-4">
+    <div id="test">
+<div class="row">
+    <div class="col-md-4 thumbs">
+        <a type="button" data-toggle="modal" data-target="#maliestro" class="thumbnail projects">
+            <img src="images/Maliestro.png">
+            <div class="caption">
+                <h4 class="cap">Dark dungeon of Frivolous Despair</h4>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4 thumbs">
+        <a type="button" data-toggle="modal" data-target="#Projectx" class="thumbnail projects">
+            <img src="images/Projectx.png">
+            <div class="caption">
+                <h4 class="cap">Hudson Valley Folk Festival</h4>
+            </div>
+        </a>
+    </div>
+    <div class="col-md-4 thumbs">
+        <a type="button" data-toggle="modal" data-target="#Egolab" class="thumbnail projects">
+            <img src="images/Egolab.png">
+            <div class="caption">
+                <h4 class="cap">Egolab</h4>
+            </div>
+        </a>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-4 thumbs">
         <a href="#" class="thumbnail projects">
             <img src="http://jcode.me/content/images/2013/Sep/baracktocat.jpg">
             <div class="caption">
@@ -56,7 +84,7 @@
             </div>
         </a>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 thumbs">
         <a href="#" class="thumbnail projects">
             <img src="http://jcode.me/content/images/2013/Sep/baracktocat.jpg">
             <div class="caption">
@@ -64,7 +92,7 @@
             </div>
         </a>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 thumbs">
         <a href="#" class="thumbnail projects">
             <img src="http://jcode.me/content/images/2013/Sep/baracktocat.jpg">
             <div class="caption">
@@ -73,11 +101,91 @@
         </a>
     </div>
 </div>
+ <div class="row">
+            <div class="col-md-12 foot">
+                <h2>
+                    Contact Me: Josue Escamilla
+                    <br> 929-420-8429
+                    <br> Jescamilla1722@gmail.com
+                    <br><a class="blue" href="https://github.com/blockcod">Github</a>
+                </h2>
+            </div>
+        </div>
+</div>
 
-    <!-- About Section -->
+<!-- Modal Responses
+-->
+<div id="maliestro" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+                    <h4 class="modal-title">
+                        Dark Dungeon of Frivolous Despair
+                    </h4>
 
+                </div>
+                <div class="modal-body" stlye="color:black;">
+                    <p> This Project was made with a program called scratch and was an rpg game with a rock, paper and scissors 
+                    battle system
+                    </p>
+                    <h1>
+                       <a href="https://scratch.mit.edu/projects/155968741/"> Scratch Link </a>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <!-- Contact Section -->
+<div id="Projectx" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+                    <h4 class="modal-title">
+                        Hudson Valley Folk Festival
+                    </h4>
+
+                </div>
+                <div class="modal-body" stlye="color:black;">
+                    <p> This Project was made with a program called scratch and was an rpg game with a rock, paper and scissors 
+                    battle system
+                    </p>
+                    <h1>
+                       <a href="https://github.com/blockcod/projectx"> Github Link </a>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="Egolab" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+                    <h4 class="modal-title">
+                        Egolab
+                    </h4>
+
+                </div>
+                <div class="modal-body" stlye="color:black;">
+                    <p> This Project was made with a program called scratch and was an rpg game with a rock, paper and scissors 
+                    battle system
+                    </p>
+                    <h1>
+                       <a href="https://github.com/blockcod/egolab"> Github Link </a>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Footer -->
